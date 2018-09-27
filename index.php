@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Calendario</title>
 	<h1 align="center">Calendario</h1>
 </head>
 <body>
+	<?php
+		
 	
+	?>
 </body>
 </html>
