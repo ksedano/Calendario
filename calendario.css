@@ -1,4 +1,9 @@
+body{
+	background-color: #99fff1;
+}
+
 table{
+	background-color: white;
 	border: black 4px solid;
 	padding: 1px;
 }
