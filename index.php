@@ -29,7 +29,7 @@
 					if($num!=$hoy){
 						echo "<td>$num</td>";
 					}else{
-						echo "<td><font color='red'>$num</font></td>";
+						echo "<td><font color='red'><b>$num</b></font></td>";
 					}
 					$num+=1;
 				}
