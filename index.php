@@ -17,6 +17,7 @@
 		<td><b>Domingo</b></td>
 	</tr>
 	<?php
+	$hoy=strtolower(date('d',strtotime('today')));
 	$filas=6;
 	$columnas=7;
 	$num=1;
@@ -25,7 +26,11 @@
 			echo "<tr align='center'>";
 			for($c=0;$c<$columnas;$c++){
 				if($num<=31){
-					echo "<td>$num</td>";
+					if($num!=$hoy){
+						echo "<td>$num</td>";
+					}else{
+						echo "<td><font color='red'>$num</font></td>";
+					}
 					$num+=1;
 				}
 			}
