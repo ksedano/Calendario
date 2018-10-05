@@ -19,7 +19,7 @@
       if($_POST[Enviar]==true){
         echo "";
         if ($_POST[massa]==false || $_POST[orenga]==false) {
-          echo "Sense massa i orenga no es possible fer la pizza.";
+          echo "Una pizza necessita sempre la massa i l'orenga.";
         }if($_POST[massa]==true || $_POST[orenga]==true){
           $preu+=5.0;
         }if($_POST[tomaquet]==true){
